@@ -1,5 +1,5 @@
 body {
-  background-color: #7cc6fe;
+  background-color: #555e7d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,8 +7,13 @@ body {
   color: white;
 }
 
+.heading{
+  text-align: center;
+  font-size: 50px;
+}
+
 .app {
-  background-color: #252d4a;
+  background-color: rgb(41, 0, 128);
   width: 500px;
   min-height: 250px;
   height: min-content;

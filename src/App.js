@@ -42,7 +42,10 @@ const App = () => {
   }
 
   return (
+    <>
+    <h1 className='heading'>Quiz App</h1>
     <div className='app'>
+      
       {showResult ? (<Results score={score} correctAns = {correctAns} handlePlayAgain={handlePlayAgain}/>): ( 
       <>
         <div className='question-section'>
@@ -70,6 +73,7 @@ const App = () => {
       
 
     </div>
+    </>
   )
 }
 
